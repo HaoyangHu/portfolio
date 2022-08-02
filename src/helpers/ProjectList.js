@@ -1,39 +1,24 @@
 import Proj1 from "../assets/proj1.png";
 import Proj2 from "../assets/proj2.png";
 import Proj3 from "../assets/proj3.png";
-import Proj4 from "../assets/proj4.png";
-import Proj5 from "../assets/proj5.png";
-import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Money Saver",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "React, Node.js, MongoDB, Express",
+    link: "https://github.com/HaoyangHu/Money-Saver.git"
   },
   {
-    name: "Ecommerce Website",
+    name: "Tic-Tac-Toe",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "Expo, Typescript, AWS Cloud, GraphQL",
+    link: "https://github.com/HaoyangHu/Tic-Tac-Toe"
   },
   {
-    name: "Spotify Clone",
+    name: "Tower Defense Game",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
-  },
-  {
-    name: "Social Media Website",
-    image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
-  },
-  {
-    name: "Dashboard Visualizer",
-    image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "C#, Unity",
+    link: "https://www.youtube.com/watch?v=n0_LVgqOvSg&ab_channel=hyhu"
   },
 ];

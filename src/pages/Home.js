@@ -5,15 +5,16 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
 function Home() {
+  const mailto = "mailto:hu.haoy.job@gmail.com"
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
+        <h2>Haoyang Hu</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <p>MS in Computer Software Engineering from Northeastern University.</p>
+          <LinkedInIcon onClick={()=>{window.location.href="https://www.linkedin.com/in/haoyang-hu-neu/"}} />
+          <EmailIcon onClick={()=>{window.location.href=mailto}}/>
+          <GithubIcon onClick={()=>{window.location.href="https://github.com/HaoyangHu"}} />
         </div>
       </div>
       <div className="skills">
@@ -22,20 +23,20 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, Redux, HTML, CSS, React Native,
+              Bootstrap
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+              NodeJS, ExpressJS, GraphQL,
+              MySQL, MongoDB, DynamoDB 
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>JavaScript, Java, Python, C#, C, C++, TypeScript</span>
           </li>
         </ol>
       </div>

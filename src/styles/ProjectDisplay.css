@@ -1,6 +1,5 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,9 +11,16 @@
     color: #3e497a;
     font-size: 35px;
   }
-  .project img {
-    width: 700px;
-    border-radius: 10px;
+
+  .image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-container img {
+    width: 80%;
+    height: 100%;
   }
   
   .project p {
@@ -25,5 +31,13 @@
   .project svg {
     font-size: 60px;
     color: #3e497a;
+  }
+
+  .video {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
   }
   
